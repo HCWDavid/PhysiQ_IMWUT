@@ -1,0 +1,96 @@
+# Dataset files - NOT publicly available
+datasets/
+bin/
+*.npy
+*.csv
+segment_sessions_*.txt
+*_data.txt
+*_record.txt
+*.info.npy
+data/
+ROM_data*/
+Stability_data*/
+Repetition_data*/
+
+# Model checkpoints and weights
+*.pth
+*.pt
+*.onnx
+*.mlmodel
+*.coreml
+best_model.*
+model_*.pth
+
+# Video files
+*.mp4
+*.avi
+*.mov
+
+# Python
+__pycache__/
+*/__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs and results
+*.log
+logs/
+results/
+experiments/
+checkpoints/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Scalers
+scalers/
+*.scaler
+
+# Setup and backup files
+*.backup
